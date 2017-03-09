@@ -1,0 +1,55 @@
+{
+  "name": "apidoc-plugin-public",
+  "version": "1.0.0",
+  "description": "Helps parsing apiPublic and maintain global version.",
+  "author": "Anbuselvan Periannan <anbu@tapclicks.com>",
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/anbuselvan/apidoc/blob/master/LICENSE"
+  },
+  "main": "index.js",
+  "homepage": "http://apidocjs.com",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anbuselvan/apidoc-plugin-public.git"
+  },
+  "scripts": {
+    "check-updates": "npm-check-updates"
+  },
+  "keywords": [
+    "apidoc",
+    "plugin",
+    "apidoc-plugin"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "devDependencies": {
+    "apidoc": "*",
+    "apidoc-core": "~0.7.0",
+    "fs-extra": "^0.28.0",
+    "jshint": "^2.9.2",
+    "mocha": "^2.4.5",
+    "npm-check-updates": "^2.6.3",
+    "should": "^8.3.1"
+  },
+  "jshintConfig": {
+    "camelcase": true,
+    "curly": false,
+    "eqeqeq": true,
+    "forin": true,
+    "latedef": false,
+    "newcap": true,
+    "undef": true,
+    "unused": true,
+    "trailing": true,
+    "node": true,
+    "browser": true,
+    "predef": [
+      "it",
+      "describe",
+      "before",
+      "after"
+    ]
+  }
+}
